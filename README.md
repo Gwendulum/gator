@@ -1,6 +1,7 @@
 Gator is a CLI blog aggregator that periodically collects RSS feeds, and then stores and organizes them with postgreSQL. 
 
 INSTALLATION
+
 In order to compile gator on your machine, you first need to:
     1. install Go (https://go.dev/doc/install)
     2. install postgreSQL 
@@ -8,9 +9,11 @@ In order to compile gator on your machine, you first need to:
 Then you install gator from the command line using go install github.com/Gwendulum/gator@latest
 
 CONFIGURATION
-Gator needs a .gatorconfig.json file in your home directory.    
-    1. first create the .gatorconfig.json
-    2. then copy in the address to your database in this format:
+
+Gator needs a .gatorconfig.json file in your home directory. 
+
+1. first create the .gatorconfig.json
+2. then copy in the address to your database in this format:
     
 {
   "db_url": "postgres://<user>:<password>@localhost:5432/<database>sslmode=disable"
@@ -19,6 +22,7 @@ Gator needs a .gatorconfig.json file in your home directory.
 This file will also hold the name of the currently logged in user once one has been created.
 
 USAGE
+
 Once installed you operate gator using a list of commands. The [brackets] are necessary arguments for that command.
 * register ["username"]         ---registers a local user
 * login ["username"]            ---logs in a registered user
