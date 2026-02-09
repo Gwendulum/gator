@@ -27,11 +27,11 @@ USAGE
 
 Once installed you operate gator using a list of commands. The [brackets] are necessary arguments for that command.
 
-* register ["username"]___________registers a local user
-* login ["username"]______________logs in a registered user
-* users___________________________shows the list of users
-* feeds___________________________shows current feeds
-* addfeed [feed name][url]________adds feed to track
-* following_______________________shows current user's followed feeds
-* unfollow [url]__________________unfollow a url
-* browse__________________________rowse currently stored posts
+* register ["username"] (registers a local user)
+* login ["username"] (logs in a registered user)
+* users (shows the list of users)
+* feeds (shows current feeds)
+* addfeed [feed name][url] (adds feed to track)
+* following (shows current user's followed feeds)
+* unfollow [url] (unfollow a url)
+* browse (browse currently stored posts)
